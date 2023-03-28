@@ -3,7 +3,12 @@
 export default function Home() {
   return (
     <>
-      <h1>Welcome</h1>
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </>
   );
 }
