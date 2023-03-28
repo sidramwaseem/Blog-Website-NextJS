@@ -17,7 +17,7 @@ export default function App({Component, pageProps}) {
         <Link href="/">TheBlog.</Link></h1>
 
         <ul className="second-list">
-        <li>My account</li>
+        <li>  <Link className={router.pathname== "/account" ? "active" : ""} href="/account" >My Account</Link></li>
         <li>My cart</li>
         </ul>
       </nav>
