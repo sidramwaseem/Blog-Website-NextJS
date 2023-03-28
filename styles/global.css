@@ -4,7 +4,7 @@ body,
 html {
   margin: 0;
   padding: 0;
-  color: #323232;
+  color: #6d6d6d;
 }
 
 body {
@@ -13,9 +13,14 @@ body {
   line-height: 1.6;
 }
 .header-nav a.active {
-    color: #2a2a2a;
+    color: #050505;
+    text-decoration: underline;
+    font-weight: 600;
   }
 
+.header-nav a{
+    text-decoration: none;
+}
 .header-nav{
     display: flex;
     flex-direction: row;
@@ -30,7 +35,7 @@ body {
     /* border: 2px solid green; */
     width:100%;
 }
-.header-nav h1{
+.header-nav h1 a{
     /* border: 2px solid purple; */
     font-weight: 800;
     font-family:'Raleway', sans-serif;
@@ -40,6 +45,7 @@ body {
     list-style: none;
     display: inline-block;
     margin-right: 15px;
+    text-decoration: none;
 }
 
 .first-list{
