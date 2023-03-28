@@ -10,10 +10,11 @@ export default function App({Component, pageProps}) {
         <ul className="first-list">
           <li>
           <Link className={router.pathname== "/collection" ? "active" : ""} href="/collection" >Collections</Link></li>
-          <li>Most Popular</li>
+          <li><Link className={router.pathname== "/popular" ? "active" : ""} href="/popular" >Most Popular</Link></li>
         </ul>
 
-        <h1>TheBlog.</h1>
+        <h1>
+        <Link href="/">TheBlog.</Link></h1>
 
         <ul className="second-list">
         <li>My account</li>
